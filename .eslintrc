@@ -1,0 +1,14 @@
+{
+    "extends": "eslint-config-egg",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "comma-dangle": [2, "never"]
+    }
+}
