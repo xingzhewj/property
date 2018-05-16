@@ -25,5 +25,16 @@ module.exports = appInfo => {
         httpOnly: true,
         encrypt: true
     };
+    config.mysql = {
+        client: {
+            host: '180.76.248.249',
+            port: '3306',
+            user: 'walker',
+            password: 'wangjie110',
+            database: 'property'
+        },
+        app: true,
+        agent: false
+    };
     return config;
 };
